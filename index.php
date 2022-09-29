@@ -1,5 +1,5 @@
 <?php
-include("questions/config.php");
+include("Questions/config.php");
 ?>
 
 <!DOCTYPE html>
