@@ -1,7 +1,7 @@
 <?php
 $hostName = "localhost";
 $userName = "rgxszumy_worshipcentre_user";
-$password = "h12sxr3!h12sxr34Ht56xyz";";
+$password = "h12sxr3!h12sxr34Ht56xyz";
 $databaseName = "rgxszumy_worshipcenter";
  $conn = new mysqli($hostName, $userName, $password, $databaseName);
 // Check connection
