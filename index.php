@@ -9,6 +9,7 @@ include("Questions/config.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAG Worship Center</title>
+    <link rel="stylesheet" href="">
 
     <link rel="stylesheet" href="bootsnip.css">
     <link rel="stylesheet" href="styles.css">
@@ -20,6 +21,7 @@ include("Questions/config.php");
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+    <link rel="icon" type="image/x-icon" href="imgs/logo.pn">
 
 
 </head>
@@ -113,7 +115,7 @@ include("Questions/config.php");
                                 </div>
                                 <div class="form-group">
                                     <label>description</label>
-                                    <input type="text" name="description" class="form-control">
+                                    <input type="text" name="description" class="form-control" maxlength="4">
                                 </div>
                                 <div class="form-group">
                                     <label>verse</label>
@@ -154,8 +156,10 @@ include("Questions/config.php");
                                     <input type="text" name="alerts_title" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label>description</label>
-                                    <input type="text" name="alerts_description" class="form-control">
+                                    <label>Description</label>
+                                    <textarea style="padding:10px;" name="alerts_description" id=""  cols="60" rows="5">
+                                    </textarea>
+                                    <!-- <input type="text" name="alerts_description" placholder=" 15 Words" class="form-control" > -->
                                 </div>
                                
                                 <br>
