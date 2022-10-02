@@ -23,6 +23,17 @@ include("Questions/config.php");
 
     <link rel="icon" type="image/x-icon" href="imgs/logo.pn">
 
+    <style>
+        .textarea{
+            width: 100%;
+        }
+        @media screen and (max-width:600px){
+            input[textarea]{
+                width: 100;
+            }
+            
+        }
+    </style>
 
 </head>
 <body>
@@ -115,7 +126,7 @@ include("Questions/config.php");
                                 </div>
                                 <div class="form-group">
                                     <label>description</label>
-                                    <input type="text" name="description" class="form-control" maxlength="4">
+                                    <input type="text" name="description" class="form-control" maxlength="30">
                                 </div>
                                 <div class="form-group">
                                     <label>verse</label>
@@ -155,9 +166,9 @@ include("Questions/config.php");
                                     <label>title</label>
                                     <input type="text" name="alerts_title" class="form-control">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group textarea">
                                     <label>Description</label>
-                                    <textarea style="padding:10px;" name="alerts_description" id=""  cols="60" rows="5">
+                                    <textarea style="padding:10px; max-width:100%;" name="alerts_description" id=""  cols="40" rows="5">
                                     </textarea>
                                     <!-- <input type="text" name="alerts_description" placholder=" 15 Words" class="form-control" > -->
                                 </div>
