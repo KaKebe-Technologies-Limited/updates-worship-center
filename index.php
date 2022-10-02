@@ -126,7 +126,7 @@ include("Questions/config.php");
                                 </div>
                                 <div class="form-group">
                                     <label>description</label>
-                                    <input type="text" name="description" class="form-control" maxlength="30">
+                                    <input type="text" name="description" class="form-control" maxlength="1500">
                                 </div>
                                 <div class="form-group">
                                     <label>verse</label>
